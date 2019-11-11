@@ -16,12 +16,7 @@ import org.jsoup.select.Elements;
 public class Parser {
 
     public static void main(String[] args) throws IOException {
-        //-Djava.util.logging.config.file=C:/Users/zakir/Desktop/Projects/OnlineSchool/src/main/java/gears/logs/log.properties
-//        HttpURLConnection urlConnection = (HttpURLConnection) new URL("https://www.igromania.ru/news/game/").openConnection();
-//        Scanner scanner = new Scanner(urlConnection.getInputStream());
-//        while (scanner.hasNext()) {
-//            System.out.println(scanner.nextLine());
-//        }
+
         String gameNews = "https://www.igromania.ru/news/game/";
         String indusNews = "https://www.igromania.ru/news/industry/";
         String hardNews = "https://www.igromania.ru/news/hard/";

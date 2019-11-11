@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+*.iml
+out
+gen
+.idea/compiler.xml
+.idea/misc.xml
+.idea/workspace.xml
+src/main/resources/
+src/test/
+target/
+test.txt
+pom.xml

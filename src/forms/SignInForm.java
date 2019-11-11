@@ -59,22 +59,6 @@ public class SignInForm {
             return false;
         }
 
-        /*String findUsername = request.getParameter(paramUsername); //fixme wtf? boolean?
-        String findPassword = request.getParameter(paramPass); //fixme wtf? boolean?
-        if (findUsername && findPassword) {
-            if (request.getParameter("remember") != null) {
-                System.out.println("Remember for a month");
-                Cookie userCookie = new Cookie(cookieUsername, request.getParameter(paramUsername));
-                Cookie passCookie = new Cookie(cookiePass, request.getParameter(paramPass));
-                userCookie.setMaxAge(2592000); //2592000 seconds = 30 days
-                passCookie.setMaxAge(2592000); //2592000 seconds = 30 days
-                response.addCookie(userCookie);
-                response.addCookie(passCookie);
-            }
-            return true;
-        } else {
-            return false;
-        }*/
         return true;
     }
 }

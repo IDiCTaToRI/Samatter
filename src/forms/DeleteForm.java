@@ -13,7 +13,7 @@ public class DeleteForm {
         HttpSession session = request.getSession();
         Person person = (Person) session.getAttribute("person");
         if (person != null){
-            DatabasePersonLogic.deletePerson(person);//метод, принимает айди персона и удаляет его в бд
+            DatabasePersonLogic.deletePerson(person);//метод, принимает айди пёрсона и удаляет его в бд
             return true;
         } else {
             return false;

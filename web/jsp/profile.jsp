@@ -20,13 +20,13 @@
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="nav navbar-nav mr-auto">
                 <li class="nav-item" role="presentation"><a class="nav-link active"
-                                                            href="<c:url value="http://localhost:8080/disciplines"/>">О себе</a>
+                                                            href="<c:url value="http://localhost:8080/AboutMyself"/>">О себе</a>
                 </li>
                 <li class="nav-item" role="presentation"><a class="nav-link"
-                                                            href="<c:url value="http://localhost:8080/literature"/>">Кем являюсь</a>
+                                                            href="<c:url value="http://localhost:8080/articles"/>">Статьи</a>
                 </li>
                 <li class="nav-item" role="presentation"><a class="nav-link active"
-                                                            href="<c:url value="http://localhost:8080/marks"/>">Интересы</a>
+                                                            href="<c:url value="http://localhost:8080/interests"/>">Интересы</a>
                 </li>
             </ul>
         </div>

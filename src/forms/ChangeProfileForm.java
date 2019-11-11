@@ -12,7 +12,7 @@ public class ChangeProfileForm {
         HttpSession session = request.getSession();
         Person person = (Person) session.getAttribute("person");
         if (person != null){
-            DatabasePersonLogic.changePerson(person);//метод, принимает персона и меняет его в бд по айдишнику
+            DatabasePersonLogic.changePerson(person);//метод, принимает пёрсона и меняет его в бд по айдишнику
             return true;
         } else {
             return false;

@@ -20,7 +20,7 @@
                                                             href="<c:url value="http://localhost:8080/profile"/>">Профиль</a>
                 </li>
                 <li class="nav-item" role="presentation"><a class="nav-link"
-                                                            href="<c:url value="http://localhost:8080/library"/>">Статьи</a>
+                                                            href="<c:url value="http://localhost:8080/articles"/>">Статьи</a>
                 </li>
                 <li class="nav-item" role="presentation"><a class="nav-link active"
                                                             href="<c:url value="http://localhost:8080/changeProfile"/>">Настройки</a>
